@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="form-group">
+
+          <input type="number" name="" id="num" class="form-control" placeholder="nhập số n" aria-describedby="helpId">
+          <div class="card-footer" id="themSo"></div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <button class="btn btn-primary" onclick="themSo()">Thêm số</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <button class="btn btn-primary" onclick="tinhTong()">Tính Tổng</button>
+        <div class="card-footer" id="tong"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <button class="btn btn-primary" onclick="demSoDuong()">Đếm Số Dương</button>
+        <div class="card-footer" id="soDuong"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <button class="btn btn-primary" onclick="timSoNhoNhat()">Tìm số nhỏ nhất</button>
+        <div class="card-footer" id="soNhoNhat"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <button class="btn btn-primary" onclick="timSoDuongNhoNhat()">Tìm số dương nhỏ nhất</button>
+        <div class="card-footer" id="soDuongNhoNhat"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <button class="btn btn-primary" onclick="timSoChanCuoiCung()">Tìm Số Chẵn Cuối Cùng</button>
+        <div class="card-footer" id="soChanCuoiCung"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <input type="text" placeholder="nhập vị trí 1" id="num1">
+      </div>
+      <div class="col-md-4">
+        <input type="text" placeholder="nhập vị trí 2" id="num2">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <button class="btn btn-primary" onclick="doiCho()">Đổi Chỗ</button> 
+        <div class="card-footer" id="doiCho"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>
