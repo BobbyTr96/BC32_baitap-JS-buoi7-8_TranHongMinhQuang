@@ -1,1 +1,1 @@
-# BC32_baitap-JS-buoi7-8_TranHongMinhQuang
+# BC32_baitap-JS-buoi7-8_TranHongMinhQuang : mentor xem giúp mình bài số 4 : dòng 90 tới 93 , mình đặt điều kiện là if  ko có số dương thì mình đưa thông báo ra html , nhưng khi mình thêm số dương vào mình click lại nút thì nó vẫn báo là ko có số dương @@ , trong khi bài mẫu là lúc đầu cho ko có số dương nó xổ ra thông báo , sau thêm số dương vào bấm lại lần nữa thì nó cập nhật số dương đó vào và mất cái thông báo đó đi , nhưng của mình là dính cái thông báo luôn , phải reset lại page nhập số dương vào thì ms đc
